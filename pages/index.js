@@ -38,7 +38,7 @@ function Titulo(props) {
             <Tag>{props.children}</Tag>
             <style jsx>{`
                 ${Tag} {
-                    color: ${appConfig.theme.colors.neutrals['900']};
+                    color: ${appConfig.theme.colors.neutrals['000']};
                     font-size: 24px;
                     font-weight: 600;
                 }
@@ -69,8 +69,8 @@ export default function PaginaInicial() {
         <Box
           styleSheet={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            backgroundColor: appConfig.theme.colors.primary[500],
-            backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+            backgroundColor: appConfig.theme.colors.neutrals['100'],
+            backgroundImage: `url(https://github.com/vinicxxl/certificados/blob/main/background.jpg?raw=true)`,
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
           }}
         >
@@ -97,8 +97,8 @@ export default function PaginaInicial() {
                 width: { xs: '100%', sm: '50%' }, textAlign: 'center', marginBottom: '32px',
               }}
             >
-              <Titulo tag="h2">Boas vindas de volta!</Titulo>
-              <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
+              <Titulo tag="h2">Sejam bem-vindo ao Futuro</Titulo>
+              <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals['300'] }}>
                 {appConfig.name}
               </Text>
   
@@ -121,7 +121,7 @@ export default function PaginaInicial() {
                   contrastColor: appConfig.theme.colors.neutrals["000"],
                   mainColor: appConfig.theme.colors.primary[500],
                   mainColorLight: appConfig.theme.colors.primary[400],
-                  mainColorStrong: appConfig.theme.colors.primary[600],
+                  mainColorStrong: appConfig.theme.colors.primary['900'],
                 }}
               />
             </Box>
@@ -138,7 +138,7 @@ export default function PaginaInicial() {
                 padding: '16px',
                 backgroundColor: appConfig.theme.colors.neutrals[800],
                 border: '1px solid',
-                borderColor: appConfig.theme.colors.neutrals[999],
+                borderColor: appConfig.theme.colors.neutrals['400'],
                 borderRadius: '10px',
                 flex: 1,
                 minHeight: '240px',
