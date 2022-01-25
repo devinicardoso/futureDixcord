@@ -46,7 +46,7 @@ export default function PaginaInicial() {
           styleSheet={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             backgroundColor: appConfig.theme.colors.neutrals['100'],
-            backgroundImage: `url(https://github.com/vinicxxl/certificados/blob/main/background.jpg?raw=true)`,
+            backgroundImage: `url(https://github.com/devinicardoso/certificados/blob/main/background.jpg?raw=true)`,
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
           }}
         >
@@ -62,7 +62,7 @@ export default function PaginaInicial() {
               width: '100%', maxWidth: '700px',
               borderRadius: '5px', padding: '32px', margin: '16px',
               boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-              backgroundColor: appConfig.theme.colors.neutrals[700],
+              backgroundColor: appConfig.theme.colors.neutrals[999],
             }}
           >
             {/* Formulário */}
@@ -134,9 +134,9 @@ export default function PaginaInicial() {
                 alignItems: 'center',
                 maxWidth: '200px',
                 padding: '16px',
-                backgroundColor: appConfig.theme.colors.neutrals[800],
-                border: '1px solid',
-                borderColor: appConfig.theme.colors.neutrals['400'],
+                backgroundColor: appConfig.theme.colors.neutrals['900'],
+                border: '2px solid',
+                borderColor: appConfig.theme.colors.primary['900'],
                 borderRadius: '10px',
                 flex: 1,
                 minHeight: '240px',
