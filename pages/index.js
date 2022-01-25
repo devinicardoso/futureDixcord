@@ -37,7 +37,7 @@ function Titulo(props) {
 
 export default function PaginaInicial() {
     // const username = 'vinicxxl';
-    const [username, setUsername] = React.useState('vini-codes');
+    const [username, setUsername] = React.useState('devinicardoso');
     const roteamento = useRouter();
   
     return (
