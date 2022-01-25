@@ -61,7 +61,7 @@ function Titulo(props) {
 //   export default HomePage
 
 export default function PaginaInicial() {
-    const username = 'Vinicius';
+    const username = 'vinicxxl';
   
     return (
       <>
