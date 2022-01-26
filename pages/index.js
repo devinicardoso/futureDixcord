@@ -46,7 +46,8 @@ export default function PaginaInicial() {
           styleSheet={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             backgroundColor: appConfig.theme.colors.neutrals['100'],
-            backgroundImage: `url(https://github.com/devinicardoso/certificados/blob/main/background.jpg?raw=true)`,
+            // backgroundImage: `url(https://github.com/devinicardoso/certificados/blob/main/background.jpg?raw=true)`,
+            backgroundImage: 'url(https://gifs.eco.br/wp-content/uploads/2021/09/gifs-de-anime-aesthetic-49.gif)',
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
           }}
         >
